@@ -1,0 +1,79 @@
+X:1
+T:(nimetön)
+C:Tuuli Kaihola 11.3.2014
+K:C
+CD E2 CD E2 | ED ED CD E2 | CD E2 E4 | D4 C4 | C8 |]
+
+X:1
+T:(nimetön)
+C:Tuuli Kaihola 11.3.2014
+K:C
+CD .E CD .E | D2 C6 | B,C D2- DC B, | C8 |]
+
+X:1
+T:Porkkanatanssi
+C:Tuuli Kaihola 11.3.2014
+K:C
+M:2/4
+CD .E | CD .E | DC DE | FE D2 | C4- | C4 |]
+
+X:1
+T:Kiinalainen tanssii
+C:Tuuli Kaihola 16.3.2014
+K:C
+M:2/4
+g d3 | f c3 | df ga | g f3 :|]
+
+X:1
+T:Suklaamuna
+C:Tuuli Kaihola 16.3.2014
+K:C
+AAAA  GGGG  | FFFF  GGGG  |
+AAAA  GGGG  | FFFF  GGGG  |
+AAAA  GGGG  | FFFF  GGGG  |
+c2 B2 A2 G2 | A2 B2 A2 G2 | A2 B2 c4 |]
+
+X:1
+T:Aarrearkku avautuu
+C:Tuuli Kaihola 17.3.2014
+K:C
+V:1 clef=treble
+[A,E]2     DE/A,/-    A,4                   | [A,E]2     DE/A,/-    A,4    |]
+V:2 clef=bass octave=-1
+[A,E][A,E] [A,E][A,E] [A,E][A,E] [A,E][A,E] | [A,E][A,E] [A,E][A,E] [A,E]4 |]
+
+X:1
+T:Makkaran tanssi (hitaampi)
+C:Tuuli Kaihola 18.3.2014
+K:C
+C>D E6 | C>D E6 | D>C D6 | D>E C6 |]
+
+X:1
+T:Makkaran tanssi (nopeampi)
+C:Tuuli Kaihola 18.3.2014
+K:C
+M:2/4
+C>D E2 | C>D E2 | D>C D2 | D>E C2 |]
+
+X:1
+T:Tipu
+C:Tuuli Kaihola 18.3.2014
+K:C
+M:2/4
+CD Ez | DE Cz | DE DE | C4 |]
+
+X:1
+T:Noidat
+C:Tuuli Kaihola 20.3.2014
+K:C
+M:2/4
+Bd ez | Bd fz | Bd ed | ed Bz |
+Bd ez | Bd fz | Bd ef | ef dz |]
+
+X:1
+T:Synkässä metsässä
+C:Tuuli Kaihola 20.3.2014
+K:C clef=bass
+M:2/4
+_D, _E,3 | _D, _E,3 | =D, _D,3 | =E, _E,3 |]
+
