@@ -22,15 +22,14 @@ C:Tuuli Kaihola
 K:C
 M:4/4
 L:1/4
+%%score {1 | 2}
 V:1
-.G.F.E2 | .G.F.E2 | .D.Cx2 | .D.Cx2 |
+!5!.G.F.E2 | .G.F.E2 | .D.Cx2 | .D.Cx2 |
+   .G.F.E2 | .G.F.E2 | .D.Cx2 | .D.Cx2 |]
 V:2 clef=bass
 L:1/4
 x4 | x4 | x2 E,2 | z2 E,2 |
-V:1
-.G.F.E2 | .G.F.E2 | .D.Cx2 | .D.Cx2 |
-V:2
-x4 | x4 | x2 E,2 | x2 E,2 |
+x4 | x4 | x2 E,2 | x2 E,2 |]
 %%text 22.10.2013
 
 X:4
@@ -39,7 +38,7 @@ C:Tuuli Kaihola
 K:C
 L:1/8
 M:5/8
-BA GFz | FG ABz | C'2-C'3 |]
+!4!BA GFz | FG ABz | C'2-C'3 |]
 %%text 4.11.2013
 
 X:5
@@ -48,7 +47,7 @@ C:Tuuli Kaihola
 K:C
 L:1/8
 M:5/8
-FG ABz | BA GFz | FG ABz | C'2-C'3 |]
+!1!FG ABz | BA GFz | FG ABz | C'2-C'3 |]
 %%text 4.11.2013
 
 X:6
@@ -57,7 +56,7 @@ C:Tuuli Kaihola
 K:C
 M:2/4
 L:1/8
-CE D2 | DF E2 | CD ED | C2 F2 |
+!1!CE D2 | DF E2 | CD ED | C2 F2 |
 FE DC | FE DC | CD EF | FE D2 | C2 C2 |]
 %%text 4.11.2013
 
@@ -76,22 +75,22 @@ C:Tuuli Kaihola
 K:C
 M:2/4
 L:1/8
-CE D2 | DF E2 | CD ED | C4 |
-CE D2 | DF E2 | CD EF | FE D2 | C2 C2 |]
+!1!CE D2 | DF E2 | CD ED | C4    |
+   CE D2 | DF E2 | CD EF | FE D2 | C2 C2 |]
 %%text 4.11.2013
 
 X:9
 T:(nimetön)
 C:Tuuli Kaihola
 K:C
-CD E2 CD E2 | ED ED CD E2 | CD E2 E4 | D4 C4 | C8 |]
+!1!CD E2 CD E2 | ED ED CD E2 | CD E2 E4 | D4 C4 | C8 |]
 %%text 11.3.2014
 
 X:12
 T:(nimetön)
 C:Tuuli Kaihola
 K:C
-CD .E CD .E | D2 C6 | B,C D2- DC B, | C8 |]
+!2!CD .E CD .E | D2 C6 | B,C D2- DC B, | C8 |]
 %%text 11.3.2014
 
 X:13
@@ -99,7 +98,7 @@ T:Porkkanatanssi
 C:Tuuli Kaihola
 K:C
 M:2/4
-CD .E | CD .E | DC DE | FE D2 | C4- | C4 |]
+!1!CD .E | CD .E | DC DE | FE D2 | C4- | C4 |]
 %%text 11.3.2014
 
 X:14
@@ -114,10 +113,8 @@ X:15
 T:Suklaamuna
 C:Tuuli Kaihola
 K:C
-AAAA  GGGG  | FFFF  GGGG  |
-AAAA  GGGG  | FFFF  GGGG  |
-AAAA  GGGG  | FFFF  GGGG  |
-c2 B2 A2 G2 | A2 B2 A2 G2 | A2 B2 c4 |]
+!3!AAAA GGGG | FFFF GGGG | AAAA GGGG | FFFF GGGG |
+   AAAA GGGG | FFFF GGGG | c2 B2 A2 G2 | A2 B2 A2 G2 | A2 B2 c4 |]
 %%text 16.3.2014
 
 X:16
@@ -125,9 +122,10 @@ T:Aarrearkku avautuu
 C:Tuuli Kaihola
 K:C
 V:1 clef=treble
-[A,E]2     DE/A,/-    A,4                   | [A,E]2     DE/A,/-    A,4    |]
+%%score {1 | 2}
+!1!!5![A,E]2     DE/A,/-    A,4                   | [A,E]2     DE/A,/-    A,4    |]
 V:2 clef=bass octave=-1
-[A,E][A,E] [A,E][A,E] [A,E][A,E] [A,E][A,E] | [A,E][A,E] [A,E][A,E] [A,E]4 |]
+!1!!5![A,E][A,E] [A,E][A,E] [A,E][A,E] [A,E][A,E] | [A,E][A,E] [A,E][A,E] [A,E]4 |]
 %%text 17.3.2014
 
 X:17
