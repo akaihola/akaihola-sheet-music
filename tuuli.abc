@@ -80,6 +80,32 @@ L:1/8
 %%text 4.11.2013
 
 X:9
+T:Tanssiva heppa
+T:Variaatio Michael Aaronin Intiaanitanssista
+C:Tuuli Kaihola
+K:Dm
+df- f6 | df- f6 | Ac- c6 | Ac- c6 | A[AG] A[AG] A[AG] A[AG] | DF- F6 | DF- F6 |
+df- f6 | df- f6 | Ac- c6 | Ac- c6 | A[AG] A[AG] A[AG] A[AG] |
+DF- F6 | df- f6 | d'f'- f'6 | z8 | [dA]8 |]
+%%text Tammikuu 2014
+
+X:10
+T:Lihapulla tanssii
+C:Tuuli Kaihola
+K:F
+V:1
+%%score {1 | 2}
+ffff f2 d2 | c8 | cccc A2 G2 | F8 |
+w: Li-ha-pul-la tans-sii vaan, li-ha-pul-la tans-sii vaan.
+ffff f2 d2 | c8 | c2>c2 AA G2 | F8 |]
+w: Li-ha-pul-la tans-sii vaan, ai-na ko-to-naan._
+V:2 clef=bass octave=-2
+L:1/4
+f a f a | f a f a | f a f a | f a f a |
+f a f a | f a f a | f a f a | f a f2 |]
+%%text Helmikuu 2014
+
+X:11
 T:(nimetön)
 C:Tuuli Kaihola
 K:C
