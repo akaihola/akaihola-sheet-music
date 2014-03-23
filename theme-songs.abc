@@ -1,0 +1,39 @@
+X:1
+T:Madagascar
+C:(elokuvasta)
+K:Dm
+M:4/4
+L:1/8
+D2 D2 D2 DA | F2 F2 EG EA :|]
+
+X:2
+T:Mat ja Pat
+C:(nukkeanimaatiosta)
+K:F#
+M:12/8
+L:1/8
+V:1
+.c3 .A3 FGF x3 | x3 .c3 A6 | .c3 .A3 FGF x3 | x3 .c3 B6 | 
+V:2 clef=bass
+M:12/8
+x9 E2D | .C3 x9 | x9 E2D | .C3 x9 |
+V:1
+A2c A2=A G3 ^A2 c | A2=A G3 G6 | x12 | A2=A G3 d2=d c3 :|]
+V:2
+x12 | x12 | D2F D2=D C3 ^D2F | x12 :|]
+
+X:3
+T:Peson laulu
+C:Oktonautit
+K:C
+M:6/8
+L:1/8
+V:1
+E2D C2D | E3 z3 | F2E D2E | F3 z3 |
+V:2 clef=bass
+M:6/8
+x6 | x6 | x6 | x6 |
+V:1
+E2D C2D | E3 z3 | x6 | C3 z3 |]
+V:2
+x6 | x6 | A,3 B,3 | x6 |]
