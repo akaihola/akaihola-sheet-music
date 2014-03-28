@@ -84,25 +84,36 @@ T:Tanssiva heppa
 T:Variaatio Michael Aaronin Intiaanitanssista
 C:Tuuli Kaihola
 K:Dm
-df- f6 | df- f6 | Ac- c6 | Ac- c6 | A[AG] A[AG] A[AG] A[AG] | DF- F6 | DF- F6 |
-df- f6 | df- f6 | Ac- c6 | Ac- c6 | A[AG] A[AG] A[AG] A[AG] |
-DF- F6 | df- f6 | d'f'- f'6 | z8 | [dA]8 |]
+%%score {1 | 2}
+V:1
+df- f6                      | df- f6           | Ac- c6           | Ac-  c6           |
+AL[AG] AL[AG] AL[AG] AL[AG] | DF- F6           | DF- F6           |
+df- f6                      | df- f6           | Ac- c6           | Ac-  c6           |
+AL[AG] AL[AG] AL[AG] AL[AG] | DF- F6           | df- f6           | d'f'-f'6          | z8 | [dA]8 |]
+V:2 clef=bass octave=-1
+L:1/4
+[DA]   [DA]   [DA]   [DA]   | [DA][DA][DA][DA] | [DA][DA][DA][DA] | [DA] [DA][DA][DA] |
+[DB]   [DB]   [DB]   [DB]   | [DA][DA][DA][DA] | [DA][DA][DA][DA] |
+[DA]   [DA]   [DA]   [DA]   | [DA][DA][DA][DA] | [DA][DA][DA][DA] | [DA] [DA][DA][DA] |
+[DB]   [DB]   [DB]   [DB]   | [DA][DA][DA][DA] | [DA][DA][DA][DA] | [DA] [DA][DA][DA] | z4 | [DA]4 |]
+
 %%text Tammikuu 2014
 
 X:10
 T:Lihapulla tanssii
 C:Tuuli Kaihola
+C:arr. Tuuli & Antti Kaihola
 K:F
 V:1
 %%score {1 | 2}
-ffff f2 d2 | c8 | cccc A2 G2 | F8 |
+!4!ffff f2 d2 | c8 | !5!cccc A2 G2 | F8 |
 w: Li-ha-pul-la tans-sii vaan, li-ha-pul-la tans-sii vaan.
-ffff f2 d2 | c8 | c2>c2 AA G2 | F8 |]
+!4!ffff f2 d2 | c8 | !5!c2>c2 AA G2 | F8 |]
 w: Li-ha-pul-la tans-sii vaan, ai-na ko-to-naan._
 V:2 clef=bass octave=-2
 L:1/4
-f a f a | f a f a | f a f a | f a f a |
-f a f a | f a f a | f a f a | f a f2 |]
+!3!f a f a | f a f a | f a f a | f a f a |
+   f a f a | f a f a | f a f a | f a f2  |]
 %%text Helmikuu 2014
 
 X:11
@@ -116,7 +127,7 @@ X:12
 T:(nimetön)
 C:Tuuli Kaihola
 K:C
-!2!CD .E CD .E | D2 C6 | B,C D2- DC B, | C8 |]
+!2!CD .E CD .E | D2 C6 | B,C D2- DC B,2 | C8 |]
 %%text 11.3.2014
 
 X:13
@@ -180,10 +191,18 @@ CD Ez | DE Cz | DE DE | C4 |]
 X:20
 T:Noidat
 C:Tuuli Kaihola
+C:arr. Salla Karakorpi
 K:C
 M:2/4
-Bd ez | Bd fz | Bd ed | ed Bz |
-Bd ez | Bd fz | Bd ef | ef dz |]
+%%score {1 | 2}
+V:1
+!1!Bd ez | Bd fz | Bd ed | ed Bz |
+   Bd ez | Bd fz | Bd ef | ef dz |]
+V:2 clef=bass octave=-1
+M:2/4
+L:1/2
+[Bd] | [Bd] | [Bd] | [Bd] |
+[Bd] | [Bd] | [Bd] | [Bd] |]
 %%text 20.3.2014
 
 X:21
@@ -193,3 +212,28 @@ K:C clef=bass
 M:2/4
 _D, _E,3 | _D, _E,3 | =D, _D,3 | =E, _E,3 |]
 %%text 20.3.2014
+
+X:22
+T:Hyppivä ukko
+C:Tuuli Kaihola
+K:C
+M:2/4
+!4!GF G2 | ED E2 | DE FG | FE D2 | D2- | D2 |]
+%%text 24.3.2014
+
+X:23
+T:Pomppiva peruna
+C:Tuuli Kaihola
+K:C
+M:2/4
+!3!ED C2 |  ED ED | .C2 z2 | ED C2 |  ED ED | .C2 z2 | ED C2 |  ED ED | C4 |]
+%%text 28.3.2014
+
+X:24
+T:Hiiren marssi
+C:Tuuli Kaihola
+K:C clef=bass octave=-2
+M:2/4
+!3!CD Ez | CD Ez | DC Dz | ED Cz | CD Ez | CD Ez  |
+   DC Dz | ED Cz | CD Ez | CD Ez | DC Dz | ED C2- | C4 |]
+%%text 28.3.2014
