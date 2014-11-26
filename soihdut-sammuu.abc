@@ -1,0 +1,21 @@
+X:1
+T:Soihdut sammuu
+C:Sov. Eeva Sarmanto-Neuvonen & Antti Kaihola
+K:C
+M:4/4
+%%score {1|2}
+V:1 octave=-1
+L:1/4
+!3!c !1!G c G | !3!c/!2!B/!1!c/d/  e c | !5!g2 f2 | !2!e2 d2 |
+w: Soih-dut sam-muu kaik-ki vä-ki nuk-kuu, vä-ki nuk-kuu.
+!3!d !1!A d A | !3!d/!2!^c/!1!d/e/ f d | !5!a2 g2 | f2 e2 |
+w: Öit-ten var-joon ta-lon tou-hu huk-kuu, tou-hu huk-kuu.
+c G c G | c/B/c/d/  e c | g2 g2 | c4    |]
+w: Tip tap tip tap ti-pe-ti-pe tip tap, tip tip tap.
+%
+V:2 clef=bass octave=-2
+L:1/2
+[ce] [ce] | [ce] [ce] | [ce]   [df]    | [ce] [df] |
+[df] [df] | [df] [df] | [df]   [ce]    | [df] [ce] |
+[ce] [ce] | [ce] [ce] | z/[Bg]/z/[Bg]/ | [ce]2     |]
+
