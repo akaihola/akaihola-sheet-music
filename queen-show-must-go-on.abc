@@ -1,0 +1,96 @@
+X:1
+T:The Show Must Go On
+C:Queen
+K:Bm
+M:4/4
+L:1/8
+I:linebreak $
+%%score {R | (L1 L2)}
+%
+%
+%
+V:R
+Z6 | z6 (Bd |
+%
+V:L1 clef=bass octave=-1
+[dBF][dBF][dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF][dBF][dBF][dBF] |
+[dBG][dBG][dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dBG][dBG][dBG][dBG] |
+[dBG][dBG][dBG][dBG] [cBG][cBG][cBG][cBG] | [cBF][cBF][cBF][cBF] [c^AF][cAF][cAF][cAF] |
+(B4                  ^A4)                 |
+%
+V:L2 clef=bass octave=-2
+L:1/4
+B4-    | B3 A |
+G4-    | G3 F |
+E4     | F4   |
+[geE]4 |
+%
+%
+%
+V:R
+cd3)          z    (ddc            | c2        BB)        z     (Bdd        |
+cd3)          z    (cde            | f2        ge)        z4                |
+(f2 ge-       e2)       z    (e    | fgfg                 fe    dc          |
+cB B2)        z2        (dd        |
+%
+V:L1 octave=-1
+L:1/8
+z2 [dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF]4            |
+z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dB][dB]z[dB]     |
+z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [cB][cB][cB][cB]     [c^A][cA][cA][cA] |
+B4 ^A4 |
+%
+V:L2 octave=-2
+L:1/4
+B4- | B3           A    |
+G4- | G3           f    |
+e4  | f/f/f/f/ f/f/f/f/ |
+[ge]4 |
+%
+%
+%
+V:R
+cd3)              z    (ddc            | c2        BB)        z     (ddd        |
+cd3)              z2        (de        | f2        ge)        z4                |
+(a3     g/f/      e2)       z    (e    | fgfg                 fe    d/c/e/d/    |
+B) z/E/z/E/z/E/   z    (bbb            |
+%
+V:L1 octave=-1
+L:1/8
+z2     [dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF]4            |
+z2     [dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dB][dB]z[dB]     |
+z2     [dBG][dBG] [cBG][cBG][cBG][cBG] | [cB][cB][cB][cB]     [c^A][cA][cA][cA] |
+[BG]8                                  |
+%
+V:L2 octave=-2
+L:1/4
+B4-         | B3           A    |
+G4-         | G3           f    |
+e4          | f/f/f/f/ f/f/f/f/ |
+e/e/e/e/ e2 |
+%
+%
+%
+V:R
+b>a f2) z4       | z4     z (bbb  |
+b>a g2) z4       | z4     z2 z (g |
+fgfg    fg) z (g | fgfg   =agfe   |
+e4)     z2 (d2   | c2 B2) z4      | z4 z eee ||
+%
+V:L1
+L:1/8
+z2 [dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF]4            |
+z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dB][dB]z[dB]     |
+z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [cB][cB][cB][cB]     [c^A][cA][cA][cA] |
+B4 ^A4                             | DB,B,B, B,B, B,B,/F/ | B4 (^gfcA) ||
+%
+V:L2
+L:1/4
+B4- | B3           A    |
+G4- | G3           f    |
+e4  | f/f/f/f/ f/f/f/f/ |
+[ge]4 | Z | Z ||
+%
+%
+%
+% (to be continued)
