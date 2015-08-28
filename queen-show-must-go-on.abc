@@ -2,36 +2,42 @@ X:1
 T:The Show Must Go On
 C:Queen
 K:Bm
-M:4/4
+M:C
 L:1/8
 I:linebreak $
-%%score {R | (L1 L2)}
+%%score {(R1 R2) | (L1 L2)}
 %
+% -----------------------------------------------------------------------------
 %
-%
-V:R
+V:R1
 Z6 | z6 (Bd |
 %
+V:R2
+Z7 |
+%
 V:L1 clef=bass octave=-1
-[dBF][dBF][dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF][dBF][dBF][dBF] |
-[dBG][dBG][dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dBG][dBG][dBG][dBG] |
+[dBF][dBF][dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF][dBF][dBF][dBF]  |
+[dBG][dBG][dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dBG][dBG][dBG][dBG]  |
 [dBG][dBG][dBG][dBG] [cBG][cBG][cBG][cBG] | [cBF][cBF][cBF][cBF] [c^AF][cAF][cAF][cAF] |
 (B4                  ^A4)                 |
 %
 V:L2 clef=bass octave=-2
-L:1/4
-B4-    | B3 A |
-G4-    | G3 F |
-E4     | F4   |
-[geE]4 |
+L:1/2
+B2-                                       | B>A                                        |
+G2-                                       | G>F                                        |
+E2                                        | F2                                         |
+[geE]2                                    |
 %
+% -----------------------------------------------------------------------------
 %
-%
-V:R
+V:R1
 cd3)          z    (ddc            | c2        BB)        z     (Bdd        |
 cd3)          z    (cde            | f2        ge)        z4                |
 (f2 ge-       e2)       z    (e    | fgfg                 fe    dc          |
 cB B2)        z2        (dd        |
+%
+V:R2
+Z7 |
 %
 V:L1 octave=-1
 L:1/8
@@ -42,18 +48,23 @@ B4 ^A4 |
 %
 V:L2 octave=-2
 L:1/4
-B4- | B3           A    |
-G4- | G3           f    |
-e4  | f/f/f/f/ f/f/f/f/ |
-[ge]4 |
+B4-                                | B3           A                         |
+G4-                                | G3           f                         |
+e4                                 | f/f/f/f/ f/f/f/f/                      |
+[ge]4                              |
 %
+% -----------------------------------------------------------------------------
 %
-%
-V:R
+V:R1
 cd3)              z    (ddc            | c2        BB)        z     (ddd        |
 cd3)              z2        (de        | f2        ge)        z4                |
 (a3     g/f/      e2)       z    (e    | fgfg                 fe    d/c/e/d/    |
-B) z/E/z/E/z/E/   z    (bbb            |
+B4)               z    (bbb            |
+%
+V:R2
+L:1/16
+Z6 |
+z3EzEzE           z8                   |
 %
 V:L1 octave=-1
 L:1/8
@@ -64,33 +75,271 @@ z2     [dBG][dBG] [cBG][cBG][cBG][cBG] | [cB][cB][cB][cB]     [c^A][cA][cA][cA] 
 %
 V:L2 octave=-2
 L:1/4
-B4-         | B3           A    |
-G4-         | G3           f    |
-e4          | f/f/f/f/ f/f/f/f/ |
-e/e/e/e/ e2 |
+B4-                                    | B3                            A        |
+G4-                                    | G3                            f        |
+e4                                     | f/f/f/f/              f/f/f/f/         |
+e/e/e/e/           e2                  |
 %
+% -----------------------------------------------------------------------------
 %
+V:R1
+b>a f2)       z4                   | z4                   z (bbb            |
+b>a g2)       z4                   | z4                   z2     z (g       |
+fgfg          fg)       z (g       | fgfg                 =agfe             |
+e4)           z2        (d2        | c2 B2)               z4                |
+z4            z        eee         ||
 %
-V:R
-b>a f2) z4       | z4     z (bbb  |
-b>a g2) z4       | z4     z2 z (g |
-fgfg    fg) z (g | fgfg   =agfe   |
-e4)     z2 (d2   | c2 B2) z4      | z4 z eee ||
+V:R2
+Z9                                 ||
 %
 V:L1
 L:1/8
 z2 [dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF]4            |
 z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dB][dB]z[dB]     |
 z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [cB][cB][cB][cB]     [c^A][cA][cA][cA] |
-B4 ^A4                             | DB,B,B, B,B, B,B,/F/ | B4 (^gfcA) ||
+B4            ^A4                  | DB,B,B, B,B, B,B,/F/                   |
+B4            (^gfcA)              ||
 %
 V:L2
 L:1/4
-B4- | B3           A    |
-G4- | G3           f    |
-e4  | f/f/f/f/ f/f/f/f/ |
-[ge]4 | Z | Z ||
+B4-                                | B3                            A        |
+G4-                                | G3                            f        |
+e4                                 | f/f/f/f/             f/f/f/f/          |
+[ge]4                              | Z                                      |
+Z                                  ||
 %
+% -----------------------------------------------------------------------------
 %
+V:R1
+K:C#m
+de z2  z eed | d2 cc  z cee |
+d e3   z def | g2 af- f2 z2 |
+g2 af- f3  f | gaga   gfed  |
+fe c/d/e/f/ g2 z e |
 %
-% (to be continued)
+V:R2
+Z7 |
+%
+V:L1
+K:C#m
+z2 [ecG][ecG] [dcG][dcG][dcG][dcG] | [fcG][fcG][fcG][fcG] [ecG]2 z2 |
+z2 [ecG][ecG] [dcA][dcA][dcA][dcA] | [fcA][fcA][fcA][fcA] [ec][ec]z[ec] |
+z2 [ecA][ecA] [dcA][dcA][dcA][dcA] | [dcG][dcG][dcG][dcG] [d^BG][dBG][dBG][dBG] |
+c4 ^B4 |
+%
+V:L2
+c4- | c3 B |
+A4- | A3 g |
+f4  | z4   |
+[af]4 |
+%
+% -----------------------------------------------------------------------------
+%
+V:R1
+de     z2         z    eed             | d2        cc         z    eee              |
+de     z2         z2        ec         | f2        ge         z2         a2         |
+gaga              g    a2        a     | gaga                 bagf                  |
+f/e/f- f/e/c      z4                   | z4                   z    (bbb             ||
+%
+V:R2
+L:1/16
+Z8                                                                                  ||
+%
+V:L1
+z2     [ecG][ecG] [dcG][dcG][dcG][dcG] | [fcG][fcG][fcG][fcG] [ecG]2     z2         |
+z2     [ecA][ecA] [dcA][dcA][dcA][dcA] | [fcA][fcA][fcA][fcA] [ec][ec]   z    [ec]  |
+z2     [ecA][ecA] [dcA][dcA][dcA][dcA] | [dcG][dcG][dcG][dcG] [d^BG][dBG][dBG][dBG] |
+c4                =c4                  | [BG]8                                      ||
+%
+V:L2
+c4-                                    | c3                              B          |
+A4-                                    | A3                              g          |
+f4                                     | z4                                         |
+[af]4                                  | e/e//e'//e//e'//e//e'// e2                 ||
+%
+% -----------------------------------------------------------------------------
+%
+V:R1
+K:Bm
+b>a f2)        z4                   | z4                   z (bbb            |
+b>a g2)        z4                   | z4                   z (g2 g           |
+fgfg           fg)       z (g       | fgfg                 =agfe             |
+e2 B2)         z2        (d2        ||
+%
+V:R2
+Z7 ||
+%
+V:L1
+K:Bm
+L:1/8
+z2  [dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF]4            |
+z2  [dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dB][dB] z   [dB] |
+z2  [dBG][dBG] [cBG][cBG][cBG][cBG] | [cB][cB][cB][cB]     [c^A][cA][cA][cA] |
+B4  ^A4                             ||
+%
+V:L2
+B4-                                 | B3                            A        |
+G4-                                 | G3                            f        |
+e4                                  | f/f/f/f/             f/f/f/f/          |
+[ge]4                               ||
+%
+% -----------------------------------------------------------------------------
+%
+V:R1 clef=treble octave=-1
+c'2 b2)              [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF][dBF][dBF][dBF] |
+[dBG][dBG][dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dBG]z3              |
+g'4                  f'4                  | e'4                  d'2       c'2        |
+B4                   _B4                  ||
+%
+V:R2
+Z7 ||
+%
+V:L1 octave=-2
+[bfdB][bfdB][bfdB][bfdB] BBBB   | Bcdf dcBA |
+GGGG                     GGGd   | gGGG GGFF |
+V:L1 octave=-1
+z2          [dBG][dBG]   [cBG]4 | z2[cBF][cBF] [c^AF][cAF]z2 |
+[GE]8 ||
+%
+V:L2
+x4        | x4 |
+x4        | x4 |
+E3- E/^E/ | F4 |
+E3/2 E/ E3/2 E/ ||
+%
+% -----------------------------------------------------------------------------
+%
+V:R1 octave=0
+K:C
+[cAF]4 [dBG]4 | efed   [cE]4  |
+[cAF]4 [dBG]4 | gege   a4     |
+B4     A2  G2 | [AD]4  z (bbb ||
+%
+V:R2 octave=0
+L:1/4
+x4            | [cG]2  A  B   |
+x4            | [dBG]2 [cAE]2 |
+[GE]4         | G>^F   x2     ||
+%
+V:L1
+K:C
+x8               | x8              |
+x8               | x8              |
+x8               | x8              ||
+%
+V:L2
+F>F       F F/F/ | E/E/E/E/ A G    |
+F/F/F/F/  f f/f/ | e/e/e/e/ A e/d/ |
+^c/c/c/c/ c c/A/ | d/d/d/d/ z2     ||
+%
+% -----------------------------------------------------------------------------
+%
+V:R1
+K:Bm
+b>a f2) z4       | z4            z (bbb    |
+b>a g2) z4       | z4            z3    g   |
+g/f/g/a/ b2 z3 b | b/^a/b/a/ c'2 z d'2 c'- |
+c'b/^a/ c'b- b4  ||
+%
+V:R2
+z>[BF] [BF]>[BF] | [BF]>[BF] [BF]/ z/ z |
+z>[BG] [BG]>[BG] | [BG]>[BG] [BG]/ z/ z |
+Z3 ||
+%
+V:L1
+K:Bm
+L:1/8
+z2 [dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF]4            |
+z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dB][dB]z[dB]     |
+z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [cB][cB][cB][cB]     [c^A][cA][cA][cA] |
+B4 ^A4                             ||
+%
+V:L2
+L:1/4
+B4-   | B3           A    |
+G4-   | G3           f    |
+e4    | f/f/f/f/ f/f/f/f/ |
+[ge]4 ||
+%
+% -----------------------------------------------------------------------------
+%
+V:R1
+K:Bm
+[bf]3   [bf] [bf]4          | [bf]3 [bf] [bf]4       |
+[bg]3   [bg] [bg]4          | [bg]3 [bg] [bg] g2 g   |
+fg/f/- fg    fg/f/-    fg   | fg fg/a/-  ag f/ee/-   |
+e4           d2        c2   | [e^A]4     [eA]2 [eA]2 |
+c4-          c/d/c/B/- B2-  ||
+%
+V:R2
+Z6 |
+[BG]2        [BG]      [BG] | G4                     |
+[BG]4 ||
+%
+V:L1
+K:Bm
+L:1/8
+z2 [dBF][dBF] [cBF][cBF][cBF][cBF] | [eBF][eBF][eBF][eBF] [dBF]4            |
+z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [eBG][eBG][eBG][eBG] [dB][dB]z[dB]     |
+z2 [dBG][dBG] [cBG][cBG][cBG][cBG] | [cB][cB][cB][cB]     [c^A][cA][cA][cA] |
+e4            d2        c2         | e4                   d2       c2       |
+d8-                                ||
+%
+V:L2
+L:1/4
+B4-                                | B3                            A        |
+G4-                                | G3                            f        |
+e4                                 | f/f/f/f/             f/f/f/f/          |
+[bg]4                              | [^ag]4                                 |
+[bg]4-                             ||
+%
+% -----------------------------------------------------------------------------
+%
+V:R1
+M:2/4
+B[dBF] [dBF][dBF]- ||
+%
+V:R2
+M:2/4
+Z                  ||
+%
+V:L1
+M:2/4
+d4                 ||
+%
+V:L2
+[bg]2              ||
+%
+% -----------------------------------------------------------------------------
+%
+V:R1
+L:1/4
+M:C
+[dBF]2- [dBF]>[cAE] | [BFD]2- [BFD]>[AEC] | [FDB,]3 z/[dBF]/ [|:
+%
+V:R2
+M:C
+Z3                                                           [|:
+%
+V:L1 octave=-2
+M:C
+L:1/1
+B-                  | B                   | B-               [|:
+%
+V:L2 octave=-3
+L:1/1
+B-                  | B                   | B-               [|:
+%
+% -----------------------------------------------------------------------------
+%
+V:R1
+[dBF]>[dBF] [dBF]>[dBF] :|]
+%
+V:R2
+Z                       :|]
+%
+V:L1
+B                       :|]
+%
+V:L2
+B                       :|]
