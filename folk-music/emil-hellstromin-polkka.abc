@@ -1,0 +1,34 @@
+X:14
+T:Emil Hellströmin Polkka
+C:trad./sov. Juhani Tiainen & Antti Kaihola
+M:2/4
+%%score {R | L}
+%%scale 0.9
+L:1/8
+K:G
+V:R
+z !5![GDB] z [GDB] | z !4![DFA] z [DFA] | z [DFA] z [DFA] | z [GDB] z [GDB] |
+z [GDB] z [GDB] | z [DFA] z [DFA] | z [DFA] z [DFA] | z [GDB] z [GDB] :||:
+K:Dm
+z !5![D=FA] z [DFA] | z [DFA] z [DFA] | z [^CEA] z [CEA] | z [DFA] z [DFA] |
+z [DFA] z [DFA] | z [DFA] z [DFA] | z [^CEA] z [CEA] | z [DFA] z [DFA] :||:
+K:G
+z !5![GDB] z !4![D^FA] | z [GDB] z [GDB] | z [DFA] z [DFA] | z [GDB] z [GDB] |
+z [GDB] z [DFA] | z [GDB] z [GDB] | z [DFA] z [DFA] | z [GDB] z [GDB] :|]
+V:L clef=bass octave=-2
+L:1/4
+K:G
+   !2!g g | d d | d d | g g |
+s: "G"    | "D" |     | "G" |
+   g g | d d | d d | g g :||:
+s: "G" | "D" |     | "G" :||:
+K:Dm
+   !5!d d | d d | a a | d d  |
+s: "Dm"   |     | "A" | "Dm" |
+   d d    | d d | a a | d d  :||:
+s: "Dm"   |     | "A" | "Dm" :||:
+K:G
+   !2!g d   | g g | d d | g g |
+s: "G"  "D" | "G" | "D" | "G" |
+   g    d   | g g | d d | g g :|]
+s: "G"  "D" | "G" | "D" | "G" :|]

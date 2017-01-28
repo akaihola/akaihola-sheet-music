@@ -1,0 +1,36 @@
+X:15
+T:Ameriikan valssi
+C:trad., sov. Mauno Järvelä & Antti Kaihola
+M:3/4
+%%score {R | L}
+%%scale 1.15
+L:1/4
+K:D
+V:R
+z | z [DFA] [DFA] | z [DFA] [DFA] | z [GDB] [GDB] | z [GDB] [GDB] |
+z [DFA] [DFA] | z [DFA] [DFA] | z [CEA] [CEA] | z [CEA] [CEA] |
+z [DFA] [DFA] | z [DFA] [DFA] | z [GDB] [GDB] | z [GDB] [GDB] |
+z [DFA] [DFA] | z [DFA] [DFA] | z [CEA] [CEA] | z [DFA] [DFA] ||
+z [DFA] [DFA] | z [GDB] [GDB] | z [DFA] [DFA] | z [DFA] [DFA] |
+z [DFA] [DFA] | z [GDB] [GDB] | z [DFA] [DFA] | z [CEA] [CEA] |
+z [DFA] [DFA] | z [DFA] [DFA] | z [GDB] [GDB] | z [GDB] [GDB] |
+z [DFA] [DFA] | z [DFA] [DFA] | z [CEA] [CEA] | [DFA]2 |]
+V:L clef=bass octave=-2
+L:1/4
+z | !5!d3 | d3 | g3  | g3 |
+s:  "D"   |    | "G" |    |
+    d3  | d3 | a3  | a3 |
+s:  "D" |    | "A" |    |
+    d3  | d3 | g3  | g3 |
+s:  "D" |    | "G" |    |
+    d3  | d3 | a3  | d3 ||
+s:  "D" |    | "A" |    ||
+    d3  | g3  | d3  | d3 |
+s:  "D" | "G" | "D" |    |
+    d3  | g3  | d3  | a3  |
+s:  "D" | "G" | "D" | "A" |
+    d3  | d3 | g3  | g3 |
+s:  "D" |    | "G" |    |
+    d3  | d3 | a3  | d2  |]
+s:  "D" |    | "A" | "D" |]
+
