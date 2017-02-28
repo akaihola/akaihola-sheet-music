@@ -1,0 +1,20 @@
+X:14
+T:Honey Pie
+C:Lennon & McCartney, sov. Antti Kaihola
+M:4/4
+%%score {R | L}
+%%scale 0.9
+L:1/8
+K:G
+V:R
+z8 | B2 dG z4 | zd eg- ge d2 |_B2 GB z4 | z^A =Be- eB A2 |
+G2 EG z4 | zA Bd- dB A2 | G4    z4 | z8 |
+B2 dG z4 | zd eg- ge d2 | _B2 GB z4 | z^A =Be- eB A2 |
+G2 EG z4 | zA Bd- dB A2 | G4    z4 |]
+V:L clef=bass octave=-2
+L:1/4
+K:G
+z/d'/ c' b a | g2 d2  | g2 d2 |_e2 _B2 | =e2      =B2 |
+               a2 e_e | d2 A2 | g d e g | [_b_e] a g d |
+               g2 d2  | g2 d2 | _e2 _B2 | =e2      =B2 |
+               a2 e_e | d2 A2 | g4      |]
