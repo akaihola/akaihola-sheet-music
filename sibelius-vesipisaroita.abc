@@ -1,0 +1,21 @@
+X:16
+T:Vesipisaroita
+C:Jean Sibelius 10-vuotiaana
+M:4/4
+%%score (Vl) | (Vc)
+%%scale 0.75
+K:Em
+% V:Vl name="Viulu"
+V:Vl name="Viulu 1"
+L:1/4
+B B G/B/ E | c B A/F/ ^D/B/ | b ^d d/e/ c/A/         | B B G/F/ E |
+s:"pizz."
+d d B/A/ G | e d B/A/ G     | c B G/F/  E//F//G//A// | B b B    z |
+B B G/B/ E | =f e c/e/ A    | c B G/F/  E//F//G//A// | B A G/F/ E |]
+% V:Vc clef=bass octave=-2 name="Sello"
+V:Vc clef=treble octave=-1 name="Viulu 2"
+L:1/8
+eb eb eb eb | ea eb ^db Ba | eg fa gb ac' | bB aB ba ge |
+s:"pizz."
+fd' fd' gd' gd' | gc' gd' gd' gd' | z2 z2 bb ge | ^d2 d2 Ba gf |
+eb eb z2 z2 | d^g ca e2 z2 | f2 g2 b2 c'2 | b2 b2 B2 e2 |]
